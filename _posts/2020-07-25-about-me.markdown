@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "About me"
+date:   2020-07-25 21:03:36 +0530
+---
+I am a student at IIT(ISM) Dhanbad in India. Looking forward to sharing my ideas and learnings with everyone.
+
+You can find me on [github][my-git] and [linked in][my-link]. 
+
+Good luck everyone!
+
+[my-git]: https://github.com/hyperloop11
+[my-link]: https://www.linkedin.cn/in/shirin-kaul-b09282190?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBNK0qWRhR8GoHCf5eKdN5g%3D%3D
