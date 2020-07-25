@@ -2,9 +2,8 @@ title: Texture Theme
 author: Shirin Kaul
 email: shirin.kaul11@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A technical blog about python projects, competitive programming, algorithms and data 
+  strucures.
 show_excerpts: true # set to true to show excerpts on the homepage
 baseurl: /texture
 
@@ -25,8 +24,8 @@ texture:
   # generate social links in footer
   social_links:
     twitter: thelehhman
-    github:  https://github.com/hyperloop11
-    linkedIn: https://www.linkedin.cn/in/shirin-kaul-b09282190/
+    github:  hyperloop11
+    linkedIn: shirin-kaul-b09282190/
     rss: rss
  
 
