@@ -17,9 +17,9 @@ texture:
   title: Shirin Kaul
   tagline: Student. Developer.
   date_format: "%b %-d, %Y"
-  style: black
+  style: red
   showNav: false
-  showPicker: true
+  showPicker: false
 
   # generate social links in footer
   social_links:
