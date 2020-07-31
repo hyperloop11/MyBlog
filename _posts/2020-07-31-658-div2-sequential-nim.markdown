@@ -50,7 +50,4 @@ Again, it becomes like the original case, the person whose turn it is at this st
 
 If all the heaps have only one stone, finding the loser is pretty straight forward, by finding whose turn it was at the end position.
 
-This is my first blog, any suggestion or feedback is welcome. Send a [mail][email]!
-
 [ques]: https://codeforces.com/contest/1382/problem/B
-[email]: shirin.kaul11@gmail.com
