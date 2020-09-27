@@ -36,3 +36,8 @@ Next, to create a basic framework of our project in django, we run the command:
 
 
 From this command, django automatically creates a Django project – a collection of settings for an instance of Django, including database configuration and setting for the applications we are going to create. More information can be found on [Django Documentation][django-docs]
+
+
+[django-docs]: https://docs.djangoproject.com/en/3.1/intro/tutorial01/
+[venv-docs]: https://docs.python.org/3/library/venv.html
+
