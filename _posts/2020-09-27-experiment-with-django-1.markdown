@@ -3,7 +3,9 @@ layout: post
 title:  "My experiments with django 1"
 date:   2020-09-27 21:03:36 +0530
 ---
-The setup with django is not as easy as it looks. First off, it is always recommended to use django( and almost every project) in a virtual environment. 
+The setup with django is not as easy as it looks. 
+
+First off, it is always recommended to use django( and almost every project) in a virtual environment. 
 FOrtunately, Python 3.3 onwards, we already have the venv module installed in the Python Standard Library. To setup the virtual environment in Windows, head over to the command prompt. Type the following in there:
 
 
