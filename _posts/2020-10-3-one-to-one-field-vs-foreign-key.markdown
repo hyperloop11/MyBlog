@@ -5,7 +5,8 @@ date:   2020-10-3 21:03:36 +0530
 ---
 
 The basic difference between a OneToOneField and a ForeignKey in django lies in the fact that one creates a one to one relationship between two entities and the other, a many-to-one relationship.
-	
+
+
 A one to one relationship between object A and B states that one member of A can only be associated with one member of B, and vice-versa. Mathematically, it represents a [bijective function][bij-rel]. An example is the relation between a User and a Profile on a blogging website. A user has a profile and each profile belongs to a particular User. So, we use a OneToOneField for creating this association.  
 
 On the other hand, a many to one relationship between object A and B states that, a member of object A is related to only one member of B, a member of object B can have many associations with member of object A. An example is the relation between a blog and a user. A blog is associated with only one user, whereas a user can be related to (i.e, author) multiple blogs at once.  So, we create a foreignkey for creating this association. 
