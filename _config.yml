@@ -28,6 +28,8 @@ texture:
     linkedIn: shirin-kaul-b09282190/
     rss: rss
  
+texture:
+  disqus_shortname: shirinK
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
