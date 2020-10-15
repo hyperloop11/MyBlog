@@ -5,6 +5,17 @@
 	<div class="post-date" style="margin-top:20px">
 		Published on {{ page.date | date: date_format }}
 	</div>
+	<ul class="social">
+		{%- if site.texture.social_links.github -%}
+			<a href="https://github.com/{{ site.texture.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
+		{%- endif -%}
+		{%- if site.texture.social_links.linkedIn -%}
+			<a href="https://linkedin.com/in/{{ site.texture.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
+		{%- endif -%}
+		{%- if site.texture.social_links.twitter -%}
+			<a href="https://twitter.com/{{ site.texture.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
+		{%- endif -%}
+	</ul>
 	<ul class="post-tags">
 		{%- for tag in page.categories -%}
 			<li>{{ tag }}</li>
