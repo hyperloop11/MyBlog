@@ -3,7 +3,6 @@ layout: post
 title:  "Djnago forms using Class Based Views and crispy forms"
 date:   2020-09-27 21:03:36 +0530
 --- 
-
 While working with forms, we usually require two things: GET request and POST request. While GET requests are used to request data from a specified resource, POST requests are used to send data to update or create a resource. Since, a form creating an object will likely be creating and updating databases, our forms will transfer user data via a post request. 
 
 Now, a great thing about using class based views for our forms is that django automatically handles a lot of logic for us. On top of that, ```crispy_forms```, Django’s application for creating forms which allows adjusting forms' properties, like send button, CSS properties, etc. on the backend without writing them in the template, handles a lot of the frontend part for us.
