@@ -46,17 +46,17 @@ And, that’s it. We don't have to write any kind of post request validation log
 .
 .
 <form method="POST">
-                {% csrf_token %}
-                <fieldset class ="form-group">
-                    <legend class="border-bottom mb-4">
-                        Issue
-                    </legend>
-                    {{form| crispy}}
-                </fieldset>
-                <div class="form-group">
-                    <button class="btn btn-info" type="submit">Submit</button>
-                </div>
-            </form>
+        {% csrf_token %}
+	<fieldset class ="form-group">
+	    <legend class="border-bottom mb-4">
+		Issue
+	    </legend>
+	    {{form| crispy}}
+	</fieldset>
+	<div class="form-group">
+	    <button class="btn btn-info" type="submit">Submit</button>
+</div>
+</form>
 ```
 The button and legend classes are simple bootstrap classes. The important thing here is loading the template tags for crispy forms, namely ```crispy_forms_tags``` and while displaying form, simply add ```| crispy``` after the vertical bar. 
 
