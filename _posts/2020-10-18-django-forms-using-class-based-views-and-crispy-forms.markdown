@@ -24,7 +24,7 @@ class Post(models.Model):
 	Def __str__(self):
 		return self.title
 ```
-The ```__str__``` method simply returns a string representation of the entire object, i,e, calling the post object by the title of the post.
+The ```__str__``` method simply returns a string representation of the entire object, i.e, calling the post object by the title of the post.
 
 In our views.py file, we can simply configure the ```CreateView``` to suit our needs and Django does the rest of the work for us.
 
