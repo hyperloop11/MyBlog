@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Djnago forms using Class Based Views and crispy forms"
-date:   2020-09-27 21:03:36 +0530
+date:   2020-10-18 21:03:36 +0530
 --- 
 While working with forms, we usually require two things: GET request and POST request. While GET requests are used to request data from a specified resource, POST requests are used to send data to update or create a resource. Since, a form creating an object will likely be creating and updating databases, our forms will transfer user data via a post request. 
 
@@ -41,7 +41,6 @@ class PostCreateView(CreateView):
 And, that’s it. We don't have to write any kind of post request validation logic ourselves. Also, we don’t not have to specify a template anywhere in our views, CreateView automatically uses a template based on our model name, which in this case is going to be ```post-form.html``` in our templates directory. In this file, the logic for crispy form comes in, we don’t have to write any additional CSS to style our forms. So, let us create this file and add the form to the file. Below, is the relevant section of the post-form.html file:
 
 ```html
-{% load crispy_forms_tags %}
 .
 .
 .
