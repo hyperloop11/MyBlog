@@ -41,6 +41,7 @@ class PostCreateView(CreateView):
 And, that’s it. We don't have to write any kind of post request validation logic ourselves. Also, we don’t not have to specify a template anywhere in our views, CreateView automatically uses a template based on our model name, which in this case is going to be ```post-form.html``` in our templates directory. In this file, the logic for crispy form comes in, we don’t have to write any additional CSS to style our forms. So, let us create this file and add the form to the file. Remember to load crispy forms, at the beginning of HTML page using-{% load crispy_forms_tags %} and add-{% csrf_token %} after the form tag. Below, is the relevant section of the post-form.html file:
 
 ```
+<html>
 ...
 <form method="POST">
 	<fieldset class ="form-group">
@@ -53,6 +54,7 @@ And, that’s it. We don't have to write any kind of post request validation log
 	    <button class="btn btn-info" type="submit">Submit</button>
 	</div>
 </form>
+</html>
 ```
 
 The button and legend classes are simple bootstrap classes. The important thing here is loading the template tags for crispy forms, namely ```crispy_forms_tags``` and while displaying form, simply add ```| crispy``` after the vertical bar. 
