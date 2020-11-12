@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Puzzle: Distribute 300 coins among 6 pirates"
-date:   2020-09-12 21:03:36 +0530
+date:   2020-11-13 21:03:36 +0530
 ---
 
 Full length explanation for this puzzle is discussed below, distributing 300 coins in 6 pirates.
