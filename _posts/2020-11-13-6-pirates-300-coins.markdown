@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Puzzle: Distribute 300 coins among 6 pirates"
+date:   2020-09-12 21:03:36 +0530
+---
+
+Full length explanation for this puzzle is discussed below, distributing 300 coins in 6 pirates.
+
+300 coins have to be distributed among 6 pirates, with the pirates already rated by seniority. The senior-most pirate proposes a way to divide the money. Then the pirates
+vote. If the senior pirate gets at least half the votes he wins, and that division
+remains. If he doesn’t, he is killed and then the next senior-most pirate gets a
+chance to do the division. Obviously, their first priority is staying alive and next is to get maximum money.
+
+To go about this puzzle, let's take a bottom up approach. Firstly see how pirates behave when only 2 junior-most of them are left, then add another to the bunch, and then another to see how new senior pirates affect distribution. 
+
+Name the pirates P1 through P6, with P1 being the senior. If all pirates are dead except P5 and P6, P5 gets he distribution rights and obviously distributes the contents as follows: 
+
+```
+P5     P6
+300    0 
+```
+
+Lets add P4 to the mix. P6 knows that if P4 is killed and P5 gets distribution rights, it will get nothing. So, P4 uses this to bribe P6, making the distribution:
+
+```
+P4    P5   P6
+299   0    1
+```
+
+So, P6 votes for P4 and he survives.
+
+Adding P3. just like P6 in the previous case, P5 knows that if P4 wins, it gets nothing, so P3 uses this fact to bribe him making the distribution:
+
+```
+P3   P4   P5   P6
+299  0    1    0
+```
+
+Now, we add P2, here P2 needs at least 3 votes to win. P2 now bribes both P4 and P6 since both of them get 0 coins if P3 wins and gets distributing rights. This makes the distribution: 
+
+```
+P2   P3   P4   P5   P6
+298   0    1    0    1
+```
+
+Adding P1, and following aforementioned procedure:
+
+```
+P1   P2   P3   P4   P5   P6
+298  0    1    0    1    0
+```
+
+And thus, the maximum coins pirate 1 gets is 298.
