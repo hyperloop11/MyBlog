@@ -3,7 +3,6 @@ layout: post
 title:  "Engage and agile"
 date:   2021-07-13 21:03:36 +0530
 ---
-# Engaged and Agile
 
 In this blog, I am going to elaborate on some of the strategies I utilized for building my project, how I used the agile methodology to schedule my sprints, my interactions with the mentors and how I incorporated their feedback into my design and thinking patterns.
 
