@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My experiments with django 1"
+title:  "Engage and agile"
 date:   2021-07-13 21:03:36 +0530
 ---
 # Engaged and Agile
